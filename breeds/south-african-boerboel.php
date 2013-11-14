@@ -1,4 +1,7 @@
-<? title('Южноафриканский Бурбуль') ?>
+---
+layout: default
+title: Южноафриканский Бурбуль
+---
 <table border="0" class="layout">
     <tbody>
         <tr>

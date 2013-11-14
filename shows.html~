@@ -1,4 +1,7 @@
-<? title('Анонсы и результаты выставок') ?>
+---
+layout: default
+title: Анонсы и результаты выставок
+---
 
 <ul>
     <li><strong>&nbsp;<a href="/shows/4-august-2013">&nbsp;Выставка 4 августа 2013 года</a></strong></li>

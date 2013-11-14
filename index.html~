@@ -1,1 +1,5 @@
-hello world
+---
+layout: default
+title: Центр Любителей Животных - "Лидер Престиж"
+---
+<p align="center"><img src="../public/images/site/glavnaya_1.jpg" border="1" width="744" height="481" /></p>

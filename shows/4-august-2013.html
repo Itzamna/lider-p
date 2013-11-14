@@ -1,6 +1,9 @@
-<? title('Всепородная выставка 4 августа 2013') ?>
+---
+layout: default
+title: Всепородная выставка 4 августа 2013
+---
 <center><h3>BEST in SHOW </h3></center>
-<p align="center"><?=view('photo', array('photo'=>'IMG_1693', 'height'=>'300px')); ?></p>
+<p align="center">{% include photo.html link="IMG_1693.jpg" height="300" %}</p>
 
 <p align="center"><strong>1 </strong><strong>место</strong>: английский сеттер<strong>, </strong><strong>SET`R RIDGE`S NATIONAL RECKONING </strong>вл. Сергеева Н.,</p>
 <p align="center"><?=view('photo', array('photo'=>'IMG_1756', 'height'=>'300px')); ?></p>
