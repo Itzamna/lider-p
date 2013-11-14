@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Bootstrap -->
+    <link href="../public/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../public/css/bootswatch.css" rel="stylesheet" media="screen">
+    <link href="../public/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    
+     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+    <script src="../public/js/bootstrap.js"></script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>ЦЛЖ Лидер-Престиж- <?=title()?></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+  <script type="text/javascript" src="../public/js/jquery.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+ <script src="../public/jquery/thickbox/js/thickbox.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../public/jquery/thickbox/css/thickbox.css" type="text/css">
+	<link rel="Shortcut Icon" type="image/x-icon" href="../public/favicon.ico" />
+<meta name='yandex-verification' content='6179db17cd470f44' />
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter21169900 = new Ya.Metrika({id:21169900,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/21169900" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  </head>
+  
+<!-------------------------------------->
+<body>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3">
+      <Br>
+        <? echo view('indexmenu'); ?>	
+      </div><!--/span-->
+      <div class="span9">
+            <Br>
+
+            <h3><?=title()?></h3>
+            <?=$content?>
+
+      </div><!--/span-->
+    </div><!--/row-->
+
+    <hr>
+
+    <footer>
+      <? echo view('footer'); ?>
+    </footer>
+
+  </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
+
+
+
+
+

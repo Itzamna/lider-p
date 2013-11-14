@@ -1,0 +1,40 @@
+<? title('Грейхаунд') ?>
+<table border="0" class="layout">
+    <colgroup span="1"><col width="20%" span="1"></col><col width="80%" span="1"></col></colgroup> 
+    <tbody>
+        <tr>
+            <td valign="top">
+                <div class="holster">
+                    <div class="block_container s3 b-text b-static-text user_css_12816005438" id="e_127779611075">
+                        <p><em><strong>&nbsp;Заводчики:</strong></em></p>
+                        <p><em><strong>Колпакова Елена -(Президент НКП "Грейхаунд")</strong></em></p>
+                        <p><em><strong>питомник "ХЕПИ ХЕПРИ"<br /></strong></em></p>
+                        <p><em><strong> -<a href="http://hepihepri.ru">www.hepihepri.ru</a></strong></em></p>
+                        <p><em><strong><br /></strong></em></p>
+                        <p><em><strong>Архипова Екатерина -</strong></em></p>
+                        <p><em><strong>питомник "ФИОНН КЛАНН"<br /></strong></em></p>
+                        <p><a href="http://fc.greyhound.ru"><strong>www.fc.greyhound.ru</strong></a></p>
+                        <p><em><strong><br /></strong></em></p>
+                        <p><em><strong>Деуль Полина-</strong></em></p>
+                        <p><em><strong>питомник "ПОЛ-ДЕН"<br /></strong></em></p>
+                        <p><a href="http://pol-den.ru"><strong>www.pol-den.ru</strong></a></p>
+                    </div>
+                    <div class="block_container s3 b-image txt-center" id="e_1282669558536"><span><img border="0" src="../public/images/stories/breed/greihaund.bmp" />F</span></div>
+                </div>
+            </td>
+            <td>
+                <div class="holster">
+                    <div class="block_container s3 b-text b-static-text user_css_12816005438" id="e_128266940541">
+                        <p style="text-align: center;"><span style="color: #006600;"><span style="color: #0000ff;"><strong>Грейхаунд</strong></span></span></p>
+                        <p style="text-align: justify;"><span style="color: #006600;"><span style="color: #0000ff;"><strong>Из истории породы:</strong> грейхаунд, или английская борзая, - одна из древнейших пород собак, которых натаскивали преследовать зверя, полагаясь главным образом на их острое зрение. Родиной грейхаундов, по-видимому, является ближний Восток, откуда на финикийских торговых кораблях их привезли в Европу. Грейхаунды завоевали в средневековой Европе огромную популярность и вскоре стали любимыми собаками особ королевской крови. Действительно, именно их геральдические изображения чаще всего встречались на доспехах французского короля Карла V и английского короля Генриха VIII. Благодаря способности развивать головокружительную скорость грейхаунды с огромным успехом использовались для охоты на зайцев. Во время собачьих бегов эти два старых соперника встречались и поныне, только теперь собаки гонятся не за живым, а за механическим зайцем.</span></span></p>
+                        <p style="text-align: justify;"><span style="color: #006600;"><span style="color: #0000ff;"><strong>Общая характеристика:</strong> грейхаунды - исключительно добродушные собаки, дружелюбные и преданные, ласковые в обращении с детьми.</span></span></p>
+                        <p style="text-align: justify;"><span style="color: #006600;"><span style="color: #0000ff;"><strong>Содержание и уход:</strong> достаточно по немного прогуливать собаку 3-4 раза в день. Хотя спускать с поводка грейхаунда в людных местах не следует, он, конечно, будет рад свободно побегать за городом (разумеется, не по соседству с овцами и другими домашними животными). Это очень восприимчивое существо, чётко реагирующее на интонацию голоса хозяина, что, безусловно, помогает в дрессировке грейхаунда на послушание. Ежедневная чистка специальной руковицей придаст шерсти собаки необходимый блеск. </span></span></p>
+                        <p style="text-align: justify;"><span style="color: #006600;"><span style="color: #0000ff;"><strong>Размеры: </strong>71-76 см (кобели), 68-71 см (суки).</span></span></p>
+                        <p style="text-align: justify;"><span style="color: #006600;"><span style="color: #0000ff;">_______________________________________________</span></span></p>
+                        <p style="text-align: justify;"><span style="color: #006600;"><span style="color: #0000ff;"><a href="http://www.dog.blister.ru/">http://www.dog.blister.ru</a></span></span></p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>​

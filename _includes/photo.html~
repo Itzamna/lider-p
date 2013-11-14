@@ -1,0 +1,1 @@
+<a class="thickbox" href="../public/images/photo/<?=$photo?>.jpg"><img src="../public/images/photo/<?=$photo?>.jpg" height="<?=$height?>"></a>

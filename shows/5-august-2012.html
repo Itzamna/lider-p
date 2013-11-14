@@ -1,0 +1,105 @@
+<? title('Всепородная выставка ЧРФЛС 5 августа 2012') ?>
+<p style="text-align: center;"><strong> ВСЕПОРОДНАЯ ВЫСТАВКА РАНГА ЧЕМПИОН ФЕДЕРАЦИИ </strong></p>
+<p style="text-align: center;"><strong> ЦЛЖ "ЛИДЕР И ПРЕСТИЖ"</strong></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;">5 АВГУСТА 2012 ГОДА</p>
+<p style="text-align: center;">Сокольники, 3-й Лучевой Просек</p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;">ЭКСПЕРТЫ:</p>
+<p style="text-align: center;"><strong>ПРОЗОРОВ Д. </strong><em>(Москва)</em><strong>,<br /> БРОВКИНА Т. </strong><em>(Москва)</em><strong><br /> </strong><strong>ЕГОРОВА Т. </strong><em>(Москва)</em><strong><br /> </strong></p>
+<p style="text-align: center;">Количество собак - 337</p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong> ФОТООТЧЕТ С БЕСТОВ</strong></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>BEST in      SHOW (эксп. Прозоров)<br /></strong></p>
+<p style="text-align: center;"><img src="../public/images/stories/show/050812/img_8534-1.jpg" /></p>
+<p style="text-align: center;"><strong>1 место: </strong>золотистый ретривер,<strong> </strong><strong>RIERA SANTA SEVERINA</strong>, вл. Чебурей А.</p>
+<p style="text-align: center;"><strong>2 место:</strong> пудель той, <strong>GIULFO TRUE BLOOD-N</strong>, вл. Горшкова Е.</p>
+<p style="text-align: center;"><strong>3 место:</strong> фараонова собака, <strong>&nbsp;</strong><strong>РИДЛИ РОАД ИЛЛЮМИНЕЙТЕД</strong>, Евтеева М.</p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>1 ГРУППА (эксп. Егорова)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_8045-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>немецкая овчарка,<strong> </strong><strong>WENDY DI CASA BEGGIATO</strong></p>
+<p style="text-align: center;"><strong>2 место: </strong>белая швейцарская овчарка<strong>, </strong><strong>DAINA MOON SIBERIAN PRIDE</strong><strong>, </strong>вл. Царегородцева М.</p>
+<p style="text-align: center;"><strong>3 место:</strong> южноруская овчарка, <strong>PARAMON CRIMEA AK-KAYA, </strong>вл. Наумовы</p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>2 ГРУППА (эксп. Прозоров)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_8085-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>цвергшнауцер<strong>, </strong><strong>,&nbsp;</strong></p>
+<p style="text-align: center;"><strong>2 место: </strong>русский черный терьер<strong>, </strong><strong>SPARK GALA`S VERONA</strong><strong>, </strong>вл. Артамонов В.</p>
+<p style="text-align: center;"><strong> 3 место: </strong>итальянский кане-корсо<strong>, </strong><strong>ЕРИКА ИЗ ЗОЛОТОГО ВЕНЦА</strong>, вл. Горбачева В.</p>
+<p> </p>
+<p style="text-align: center;"><strong>3 ГРУППА (эксп. Егорова)<br /></strong></p>
+<p style="text-align: center;"><img src="../public/images/stories/show/050812/img_8130-1.jpg" /></p>
+<p style="text-align: center;"><strong>1 место: </strong>йоркширский терьер<strong>, </strong><strong>VILAINS DE PARI OSKAR</strong><strong>, </strong>вл. Митуля Л.</p>
+<p style="text-align: center;"><strong>2 место: </strong>джек расел терьер<strong>, </strong><strong>MOYA BRITANIYA PRIMA STELLA DEL MARE</strong><strong>, </strong>вл. Попков, Макарова</p>
+<p style="text-align: center;"><strong><br /></strong></p>
+<p style="text-align: center;"><strong>4 ГРУППА (эксп. Бровкина)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_8153-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>такса д/ш<strong>, </strong><strong>EXCELLMAGIC L`ENIGMA EXCLUSIVE</strong><strong>, </strong>вл. Белова</p>
+<p style="text-align: center;"><strong>2 место: </strong>такса кроличья ж/ш<strong>, БЭБИ БУСИНКА</strong>, вл. Котикова О.</p>
+<p style="text-align: center;"><strong>3 место: </strong>такса г/ш<strong>, </strong><strong>IMPERIA MOKKO BAGIRA</strong><strong>, </strong>вл. Лысакова М.</p>
+<p style="text-align: center;"><strong><br /></strong></p>
+<p style="text-align: center;"><strong>5 ГРУППА (эксп. Егорова)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_8184-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место:</strong>фараонова собака<strong>, </strong><strong>РИДЛИ РОАД ИЛЛЮМИНЕЙТЕД</strong><strong>, </strong>вл. Евтеева М.</p>
+<p style="text-align: center;"><strong>2 место: </strong>аляскинский маламут<strong>, KAVIAKS "THE COLONEL" AT WOLF MOUNTAIN</strong>, вл. Гончарова, Jenkins</p>
+<p style="text-align: center;"><strong>3 место: </strong>немецкий шпиц малый<strong>, </strong><strong>ВСЕСЛАВ ИЗ ЛАСТОЧКИНОГО ГНЕЗДА, </strong>вл. Ласточкина С.</p>
+<p style="text-align: center;"><strong><br /></strong></p>
+<p style="text-align: center;"><strong>6 ГРУППА&nbsp; (эксп.Прозоров)</strong></p>
+<p style="text-align: center;"><strong>1 место:</strong> бигль<strong>, </strong><strong>VALSI INVITE TO DANCE</strong><strong>, </strong>вл. Крылова А.</p>
+<p style="text-align: center;"><img src="../public/images/stories/show/050812/img_8211-1.jpg" /></p>
+<p style="text-align: center;"><strong>2 место: </strong>родезийский риджбек,<strong> </strong><strong>ARESVUMA TSEFNI JAMALI</strong><strong>, </strong>вл. Сахарова Н.</p>
+<p style="text-align: center;"><img src="../public/images/stories/show/050812/img_8219-1.jpg" /></p>
+<p style="text-align: center;"><strong><br /></strong></p>
+<p style="text-align: center;"><strong>7 ГРУППА (эксп.Егорова)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_8263-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>курцхаар<strong>, </strong><strong>STAR K`S MILE HI CHARLOTTE, </strong>вл. Linda&amp;Richard Stak</p>
+<p style="text-align: center;"><strong>2 место: </strong>ирландский сеттер<strong>, </strong><strong>REDGRACE FOREST KNIGHT</strong><strong>, </strong>вл.Рябых</p>
+<p style="text-align: center;"><strong>3 место:</strong> венгерская короткошерстная легавая, <strong>ТИНА ТРЕЙДИНГ ЭЛИОТ,&nbsp; </strong>вл. Шелестина Н.</p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>8 ГРУППА&nbsp; (эксп. Прозоров)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_8286-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>золотистый ретривер<strong>, </strong><strong>RIERA SANTA SEVERINA, </strong>вл. Чебурей А.</p>
+<p style="text-align: center;"><strong>2 место:</strong> лабрадор ретривер, <strong>STRONG STAEL FANTASTIC BRIGHT FLAME, </strong>вл. Демидова Ю.</p>
+<p style="text-align: center;"> </p>
+<div style="text-align: center;"><strong> 9 ГРУППА </strong>(эксп. Прозоров)</div>
+<div style="text-align: center;"><img src="../public/images/stories/show/050812/img_8322-1.jpg" /></div>
+<p style="text-align: center;"><strong>1 место: </strong>пудель той<strong>, </strong><strong>GIULFO TRUE BLOOD-N</strong><strong>, </strong>вл. Горшкова Е.</p>
+<p style="text-align: center;"><strong>2 место: </strong>бишон фризе<strong>, </strong><strong>MINIBELLE TOP DOG INVISIBLE ENEMY, </strong>вл. Родионова М.</p>
+<p style="text-align: center;"><strong>3 место: </strong>бивер<strong>, </strong><strong>ДАС ИСТ ФАНТАСТИШ КАЙФ</strong><strong>, </strong>вл. Смирнова И.</p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>10 ГРУППА (эксп.Прозоров)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_8355-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>русская псовая борзая<strong>, </strong><strong>АКТЕР</strong>, вл. Васильева Т.</p>
+<p style="text-align: center;"><strong>2 место: </strong>салюки<strong>, </strong><strong>АЛЬ НАФИСЭХ КАРАМ АЛЬ КАЛЕ, </strong>вл. Гришунина К.</p>
+<br />
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>ЛУЧШИЙ БЭБИ (эксп.Бровкина)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_7969-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>чихуахуа д/ш<strong>,&nbsp;</strong><strong>ДОГ ТРИУМФ ВЭРИ СВИТ КИСС,</strong><strong> </strong>вл. Антипова А.</p>
+<p style="text-align: center;"><strong>2 место: </strong>немецкий шпиц малый<strong>, </strong><strong>ЖАВОРОНОК&nbsp; ИЗ ЛАСТОЧКИНОГО ГНЕЗДА</strong><strong>, </strong>вл. Ласточкина С.</p>
+<p style="text-align: center;"><strong>3 место: </strong>сибирский хаски<strong>, </strong><strong>СВОБОДНАЯ СТАЯ ТАЙНА</strong><strong>, </strong>вл. Жианшина Г.</p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>ЛУЧШИЙ ЩЕНОК (эксп.Бровкина)</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_7989-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>бишон фризе<strong>, </strong><strong>FRIZZLED LIFE ZEUS</strong><strong>, </strong>вл. Осипова М.</p>
+<p style="text-align: center;"><strong>2 место: </strong>бультерьер миниатюрный<strong>, </strong><strong>SHEYNE PUNIM BASBUSA AT HUMAN SIGHT</strong><strong>, </strong>вл. Громова, Гельман</p>
+<p style="text-align: center;"><strong>3 место: </strong>американская акита<strong>, </strong><strong>RESTYL-ING BRIGHT CRISTAL</strong><strong>, </strong>вл. Шаргородский И.</p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>ЛУЧШИЙ ЮНИОР </strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_8413-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>венгерская короткошерстная легавая<strong>, </strong><strong>ТИНА ТРЕЙДИНГ ЭЛИОТ,&nbsp; </strong>вл. Шелестина Н.</p>
+<p style="text-align: center;"><strong>2 место: </strong>фараонова собака<strong>,</strong><strong> РИДЛИ РОАД ИЛЛЮМИНЕЙТЕД, </strong>вл. Евтеева М.</p>
+<p style="text-align: center;"><strong>3 место: </strong>итальянский кане-корсо<strong>, </strong><strong>LORD DLJA DOMA ALVIK S ESENINSKOGO</strong><strong>,</strong> вл. Мульцева</p>
+<br />
+<p style="text-align: center;"><strong>КОНКУРС ПИТОМНИКОВ (эксп.Бровкина)</strong></p>
+<p style="text-align: center;"><strong>1 место: </strong>фараонова собака<strong> , "РИДЛИ РОАД", вл. Евтеева М.</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_7873-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"><strong>2 место: </strong>лабрадор ретривер<strong>, "СТРОНГ СТАЙЛ", вл. Ревенко В.</strong></p>
+<p style="text-align: center;"><strong><img src="../public/images/stories/show/050812/img_7875-1.jpg" /><br /></strong></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><strong>ГОРДОСТЬ ОТЕЧЕСТВА </strong></p>
+<p style="text-align: center;">южнорусская овчарка<strong>,&nbsp;</strong><strong>PARAMON CRIMEA AK-KAYA,&nbsp;</strong><strong> </strong>вл. Наумовы</p>
+<p style="text-align: center;"><img src="../public/images/stories/show/050812/img_8005-1.jpg" /></p>
+<p style="text-align: center;"> </p>​

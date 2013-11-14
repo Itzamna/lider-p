@@ -1,0 +1,12 @@
+---
+layout: default
+title: Породы
+---
+    <div class="row-fluid">
+        <? echo view('breedsmenu'); ?>	
+
+      <div class="span5">
+
+
+      </div><!--/span-->
+    </div><!--/row-->
