@@ -1,1 +1,0 @@
-<a class="thickbox" href="../public/images/photo/{{ include.photo }}.jpg"><img src="../public/images/photo/{{ include.photo }}" height="{{ include.height }}"></a>
