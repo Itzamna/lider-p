@@ -21,7 +21,6 @@ lider-prestig.ru
 
   <b>public/js</b> - папка с js-скриптами
 
-
 <b>shows</b> - папка со страницами выставок
 
 about.html, archive.html, breeds.html и т.д. - страницы сайта
@@ -31,5 +30,7 @@ index.html - главная страница сайта
 
 Includes
 -------
+
 Чтобы вставить фотографию, необходимо загрузить картинку в папку public/images/photo и внутри страницы, где хотите разместить фото поместить такой код:
+
 {% include photo.html photo="imya-faila.jpg" height="300" %}
