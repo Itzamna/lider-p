@@ -27,6 +27,11 @@ about.html, archive.html, breeds.html и т.д. - страницы сайта
 
 index.html - главная страница сайта
 
+Шаблоны сайта
+-------
+
+<b>layout: default</b> - для всех страниц сайта единый шаблон
+
 
 Includes
 -------
