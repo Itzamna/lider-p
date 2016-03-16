@@ -1630,3 +1630,56 @@ html {
 	height: 100%!important;
 	height: auto;
 }
+/* SuperBox */
+.superbox {
+  text-align:center;
+}
+.superbox-list {
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	height:100px;
+}
+.superbox-list img{
+	border:none;
+	margin: 0px;
+}
+.superbox-img {
+	max-width:100%;
+	cursor:pointer;
+	border:none;
+}
+.superbox-show {
+	text-align:center;
+	position:relative;
+	background:#666;
+	box-shadow:inset 0 1px 5px #555;
+	-webkit-box-shadow:inset 0 1px 5px #555;
+	-moz-box-shadow:inset 0 1px 5px #555;
+	width:100%;
+  float:left;
+	display:none;
+}
+.superbox-current-img {
+	max-width:700px;
+  border:none;
+}
+.superbox-img:hover {
+	opacity:0.8;
+}
+.superbox-float {
+	float:left;
+}
+.superbox-close {
+	opacity:0.7;
+	cursor:pointer;
+	position:absolute;
+	top:25px;
+	right:25px;
+	background:url(../img/close.gif) no-repeat center center;
+	width:35px;
+	height:35px;
+}
+.superbox-close:hover {
+	opacity:1;
+}

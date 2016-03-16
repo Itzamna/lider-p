@@ -1,0 +1,18 @@
+<div class="superbox">
+  {% for i in page.superbox %}
+	<div class="superbox-list">
+		<img src="../public/images/{{i}}" data-img="../public/images/{{i}}" alt="" class="superbox-img" height="100">
+	</div>
+	 {% endfor %}
+	<div class="superbox-float"></div>
+</div>
+<div class="clear"></div>
+<script src="../public/js/superbox.js"></script>
+<script>
+$(function() {
+
+	// Call SuperBox
+	$('.superbox').SuperBox();
+
+});
+</script>
