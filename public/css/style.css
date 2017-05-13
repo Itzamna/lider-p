@@ -33,11 +33,15 @@ h5{
   font-style: italic;
   margin-bottom: 1em;
 }
-h5{
+h6{
   font-size: 1.4em;
-  text-align:center;
+  text-align:left;
   font-weight: bold;
+  color: green;
+  
   margin-bottom: 1em; 
+  margin-top: 2em; 
+
 }
 /* SuperBox */
 .superbox {
