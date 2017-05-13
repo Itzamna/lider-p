@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 15 апреля 2017. Всепородная выставка собак. Ранг ЧРКФ.  
+title: 15-16 апреля 2017. Всепородная выставка собак. Ранг ЧРКФ.  
 superbox:
   - show/15april2017/IMG_0500.jpg
   - show/15april2017/IMG_0505.jpg
@@ -62,6 +62,62 @@ superbox:
   - show/15april2017/IMG_0854.jpg
   - show/15april2017/IMG_0858.jpg
   - show/15april2017/IMG_0867.jpg
+superbox1:
+  - show/16april2017/IMG_1519.jpg
+  - show/16april2017/IMG_1523.jpg
+  - show/16april2017/IMG_1526.jpg
+  - show/16april2017/IMG_1528.jpg
+  - show/16april2017/IMG_1539.jpg
+  - show/16april2017/IMG_1557.jpg
+  - show/16april2017/IMG_1562.jpg
+  - show/16april2017/IMG_1565.jpg
+  - show/16april2017/IMG_1566.jpg
+  - show/16april2017/IMG_1581.jpg
+  - show/16april2017/IMG_1583.jpg
+  - show/16april2017/IMG_1607.jpg
+  - show/16april2017/IMG_1608.jpg
+  - show/16april2017/IMG_1609.jpg
+  - show/16april2017/IMG_1612.jpg
+  - show/16april2017/IMG_1618.jpg
+  - show/16april2017/IMG_1623.jpg
+  - show/16april2017/IMG_1632.jpg
+  - show/16april2017/IMG_1658.jpg
+  - show/16april2017/IMG_1660.jpg
+  - show/16april2017/IMG_1662.jpg
+  - show/16april2017/IMG_1664.jpg
+  - show/16april2017/IMG_1666.jpg
+  - show/16april2017/IMG_1668.jpg
+  - show/16april2017/IMG_1675.jpg
+  - show/16april2017/IMG_1680.jpg
+  - show/16april2017/IMG_1693.jpg
+  - show/16april2017/IMG_1702.jpg
+  - show/16april2017/IMG_1704.jpg
+  - show/16april2017/IMG_1707.jpg
+  - show/16april2017/IMG_1713.jpg
+  - show/16april2017/IMG_1719.jpg
+  - show/16april2017/IMG_1722.jpg
+  - show/16april2017/IMG_1730.jpg
+  - show/16april2017/IMG_1738.jpg
+  - show/16april2017/IMG_1754.jpg
+  - show/16april2017/IMG_1775.jpg
+  - show/16april2017/IMG_1777.jpg
+  - show/16april2017/IMG_1795.jpg
+  - show/16april2017/IMG_1799.jpg
+  - show/16april2017/IMG_1803.jpg
+  - show/16april2017/IMG_1809.jpg
+  - show/16april2017/IMG_1815.jpg
+  - show/16april2017/IMG_1833.jpg
+  - show/16april2017/IMG_1843.jpg
+  - show/16april2017/IMG_1856.jpg
+  - show/16april2017/IMG_1861.jpg
+  - show/16april2017/IMG_1869.jpg
+  - show/16april2017/IMG_1878.jpg
+  - show/16april2017/IMG_1883.jpg
+  - show/16april2017/IMG_1887.jpg
+  - show/16april2017/IMG_1900.jpg
+  - show/16april2017/IMG_1933.jpg
+  - show/16april2017/IMG_1935.jpg
+
 ---
 <h2>ВСЕПОРОДНАЯ ВЫСТАВКА РАНГА ЧЕМПИОН РКФ</h2>
 
@@ -325,5 +381,33 @@ superbox:
 
 <p>русская псовая борзая, КРИСТАЛЛ МОЕЙ ДУШИ, вл. Медведева Е</p>
 
+<h3>Фотографии с выставки 15 апреля 2017 года</h3>
+<div class="superbox">
+  {% for i in page.superbox %}
+	<div class="superbox-list">
+		<img src="../public/images/{{i}}" data-img="../public/images/{{i}}" alt="" class="superbox-img" height="100">
+	</div>
+	 {% endfor %}
+	<div class="superbox-float"></div>
+</div>
+<h3>Фотографии с выставки 16 апреля 2017 года</h3>
+<div class="superbox">
+  {% for i in page.superbox1 %}
+	<div class="superbox-list">
+		<img src="../public/images/{{i}}" data-img="../public/images/{{i}}" alt="" class="superbox-img" height="100">
+	</div>
+	 {% endfor %}
+	<div class="superbox-float"></div>
+</div>
 
-{% include superbox.html %}
+
+<div class="clear"></div>
+<script src="../public/js/superbox.js"></script>
+<script>
+$(function() {
+
+	// Call SuperBox
+	$('.superbox').SuperBox();
+
+});
+</script>
