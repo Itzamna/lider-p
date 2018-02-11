@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="ru" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="ru" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> 
+<html lang="ru"> <!--<![endif]-->
+<head>
+<title>НКП Немецкий шпиц{% if $page.title %} | {{ page.title }} {% endif %}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if $page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}" />
+    {% else %}
+  <meta name="keywords" content=" " />
+  {% endif %}
+  {% if $page.description %}
+  <meta name="description" content="{{ page.description }}" />
+    {% else %}
+  <meta name="description" content=" " />
+  {% endif %}
+
+  <meta name="author" content="Alesenko Elena">
+  <!--<meta name="yandex-verification" content="#" />-->
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="{{ site.url }}/assets/favicon.ico">
+
+	<!-- Web Fonts -->
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="{{ site.url }}/assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/headers/header-v7.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/footers/footer-v1.css">
+
+	<!-- CSS Implementing Plugins -->
+
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/app.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/css/blocks.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/plugins/animate.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/plugins/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/plugins/scrollbar/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/plugins/fancybox/source/jquery.fancybox.css">
+	<link rel="stylesheet" href="{{ site.url }}/assets/plugins/parallax-slider/css/parallax-slider.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/plugins/tablesorter-master/dist/css/theme.default_my.min.css">
+	<link rel="stylesheet" href="{{ site.url }}assets/plugins/fancybox/source/jquery.fancybox.css">
+  <script
+    src="https://code.jquery.com/jquery-3.3.0.min.js"
+    integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4="
+    crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+</head>
+
+<body>
+
+      {{ content }}
+
+</body>
+</html>

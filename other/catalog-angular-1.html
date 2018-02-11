@@ -1,0 +1,117 @@
+---
+layout: empty
+menu: champions-form  
+---
+<div class="container content" >
+  <div class="title-box-v2">
+    <h2>Пробный каталог</h2>
+  </div>
+
+</div>
+
+
+<div class="container content  entry-content" >
+  <div class="row">
+    <div class="col-md-12"> 
+      <h3>Каталог на jquery</h3>
+        <div id="jquery-demo"></div>
+      
+        <script>
+          $(function(){
+            var dogs = {{site.data.catalog2016 |  jsonify}};
+
+            for(var i in dogs){
+              $('#jquery-demo').append('<div class="doggo">'+dogs[i].Кличка+'</div>'+'<div class="doggo">'+dogs[i].Порода+'</div>')
+            }
+          })
+        </script>    
+      </div>
+  </div>
+</div>     
+<div class="container content  entry-content" >
+  <div class="row">
+    <div class="col-md-12"> 
+      <h3>Каталог на angular</h3>
+      <div ng-app="CatalogsApp" ng-controller='MainController'>
+
+        Поиск: <input type="text" ng-model='s'>
+
+        <div class="catto" ng-repeat='cat in catalogs | filter: s'>
+          <h3>[[cat.name]]</h3>
+          [[cat.sex]]
+        </div>
+      </div>
+
+      <script>
+        var app = angular.module('CatalogsApp', []);
+        app.config(function($interpolateProvider) {
+          $interpolateProvider.startSymbol('[[');
+          $interpolateProvider.endSymbol(']]');
+        });
+        app.controller('MainController', function($scope){
+          $scope.catalogs = {{site.data.catalog2016angular | jsonify}};
+        });
+      </script>      
+      </div>
+  </div>
+</div>         
+<div class="container content  entry-content" >
+  <div class="row">
+    <div class="col-md-12"> 
+      <h3>Каталог на liquid</h3>
+      <p>Выставочное положение и т.п.</p>
+      <div style="display:none">{% increment counter %}</div>      
+      
+{% assign groups = site.data.catalog2016 | where_exp:"group",
+"group['Участие в выставке'] contains 'КЧФ'"| group_by_exp:'group', "group['Группа']"| sort:"name" %} 
+      
+        {% for group in groups %}   
+
+         {% assign breeds = group.items | group_by_exp:'breeds', "breeds['Порода']"| sort:"name" %}
+                
+                <h1 class="catalog text-center"> Группа: {{group.name}}<h2>           
+        {% for breed in breeds %}
+        {% assign types = breed.items | group_by_exp:'types', "types['Пол']"| sort:"name" %}
+          <h4 class="catalog">Порода: {{breed.name}}<h3>           
+          {% for sex in types %}
+              <h2 class="catalog">
+                {% if sex.name == 'Кобель' %}Кобели{% endif %} 
+                {% if sex.name == 'Сука' %}Суки{% endif %} 
+              </h2>      
+       
+          {% assign classes = sex.items | group_by_exp:'classes', "classes['Класс']" %}
+          {% assign classorders = 'Беби, Бэби, Щенки, Юниоров, Промежуточный, Открытый, Победителей НКП, Чемпионов, Чемпионов НКП, Ветеранов' | split: ', ' %}
+            {% for tclass in classorders %}
+              {% for class in classes %}
+                {% if class.name == tclass %}
+                <h5 class="catalog">Класс: {{class.name}}</h5>
+                
+                {% assign results = class.items | sort:'Кличка' %}
+                <div class="catalog-class">
+                   {% for result in results %}
+                    <p class="catalog"><b>{% increment counter %}.
+                      <span class="text-uppercase">{{ result['Кличка']}},</span></b>
+                      <span class="text-uppercase">{{ result['Родословная №']}},</span>
+                      <span class="text-uppercase">{{ result['Клеймо/чип']}},</span>
+                      <span class="catalog-db">{{ result['Дата рождения']}},</span>
+                      <span class="text-capitalize">{{ result['Окрас']}},</span>
+                      <span class="text-uppercase">О. {{ result['Отец (кличка)']}},</span>
+                      <span class="text-uppercase">М. {{ result['Мать (кличка)']}},</span>
+                      зав. <span class="text-capitalize">{{ result['Заводчик']}},</span>
+                      вл. <span class="text-capitalize">{{ result['Владелец']}}.</span>
+                    </p>    
+                   {% endfor %}   <!-- result-->   
+                </div>
+            {% endif %} 
+              {% endfor %}  <!-- class-->       
+          {% endfor %}  <!-- classorders-->       
+         {% endfor %}  <!-- sex-->       
+      {% endfor %}  <!-- breed-->    
+            <hr class="divider margin-bottom-50">
+      {% endfor %}  <!-- breed-->    
+
+      </div>
+  </div>
+</div>         
+      
+  

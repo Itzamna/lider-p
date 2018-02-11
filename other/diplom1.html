@@ -1,0 +1,55 @@
+---
+layout: empty
+menu: champions-form  
+---
+<div class="container content" >
+  <div class="title-box-v2">
+    <h2>Печать дипломов</h2>
+  </div>
+
+</div>
+<div class="container content  entry-content" >
+  <div class="row">
+    <div class="col-md-12">     
+      <div style="display:none">{% increment counter2 %}</div>
+      {% assign groups = site.data.catalog2016 | group_by_exp:'group', "group['Группа']"| sort:"name" %}  
+
+        {% for group in groups %}   
+         {% assign breeds = group.items | group_by_exp:'breeds', "breeds['Порода']"| sort:"name" %}
+        
+        {% for breed in breeds %}
+        {% assign types = breed.items | group_by_exp:'types', "types['Пол']" %}
+          {% for sex in types %} 
+          {% assign classes = sex.items | group_by_exp:'classes', "classes['Класс']" %}
+          {% assign classorders = 'Бэби, Щенки, Юниоров, Промежуточный, Открытый, Победителей НКП, Чемпионов, Чемпионов НКП, Ветеранов' | split: ', ' %}
+            {% for tclass in classorders %}
+              {% for class in classes %}
+                {% if class.name == tclass %}               
+                {% assign results = class.items | sort:'Кличка' %}
+                   {% for result in results %}
+                <div class="diplom-class">
+      
+                  <div class="diplom-print">
+                      <div class="diplom-text">Порода: {{breed.name}}</div>
+                      <div class="diplom-text">Кличка: {{ result['Кличка']}}</div>
+                      <div class="diplom-text">Пол: {{sex.name}}</div>
+                      <div class="diplom-text">Класс: {{class.name}}</div>
+                      <div class="diplom-text">Номер по каталогу: {% increment counter2 %}</div>                    
+                      <div class="diplom-text">Родословная: {{ result['Родословная №']}}</div>
+                      <div class="diplom-text">Владелец: {{ result['Владелец']}}</div>
+                    </div>   
+                </div>
+                  
+                   {% endfor %}   <!-- result-->   
+            {% endif %} 
+              {% endfor %}  <!-- class-->       
+          {% endfor %}  <!-- classorders-->       
+         {% endfor %}  <!-- sex-->       
+      {% endfor %}  <!-- breed-->    
+      {% endfor %}  <!-- breed-->    
+
+      </div>
+  </div>
+</div>         
+      
+  

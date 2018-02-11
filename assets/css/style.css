@@ -1,0 +1,331 @@
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
+ * Version: 1.9.2
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+/*Import Global Compulsory CSS Files*/
+@import url(app.css);
+@import url(blocks.css);
+
+/*Import CSS Plugins*/
+@import url(plugins/style-switcher.css);
+
+* {
+	border-radius: 0;
+}
+
+body {
+ color: #333;
+ font-size: 15px;
+ line-height: 1.6;
+}
+
+body.header-fixed-space {
+  padding-top: 94px;
+}
+body.header-fixed-space-v2 {
+	padding-top: 135px;
+}
+
+@media (max-width: 991px) {
+	body.header-fixed-space,
+	body.header-fixed-space-v2 {
+		padding-top: 0;
+	}
+}
+
+p,
+li,
+li a,
+label {
+ color: #555;
+}
+
+a {
+ color: #72c02c;
+ text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+button,
+button:hover {
+	outline: 0 !important;
+}
+
+a:focus {
+text-decoration: none;
+}
+a:hover {
+ color: #72c02c;
+ text-decoration: underline;
+}
+/*--------------------------------------*/
+
+.logoege{
+    padding: 10px 5px 15px 5px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.freebirdFormviewerViewFormBanner, .freebirdHeaderMast, .freebirdFormviewerViewFormContentWrapper{
+  	background: transparent;
+
+}
+.big-text{
+  font-size:40px;
+}
+.list-unstyled {
+  text-align: justify;
+}
+h2.sale{
+  font-size: 30px;
+  font-weight: bold;
+}
+.pricing-light .pricing-footer h5 {
+    color: #888;
+    padding: 5px;
+    font-size: 20px;
+    text-shadow: none;
+    margin: -2px 0 0px;
+    font-weight: bold !important;
+    margin: 10px;
+}
+/*Boxed Layout
+------------------------------------*/
+
+.dropdown-menu>li>a {
+
+   white-space: normal !important; 
+}
+.smooth2 {
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.entry-content {
+    position: relative;
+    padding-left: 50px;
+    clear: both;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.8);
+}
+.wrapper {
+  background-image: url(../img/bg/symphony-color1.png);
+  min-height:800px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-clip: border-box; 
+}
+.boxed-layout {
+  padding: 0;
+  box-shadow: 0 0 5px #ccc;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: url(../img/patterns/15.png) repeat;
+}
+
+/*Hiding arrows for select field in IE*/
+select::-ms-expand {
+  display: none;
+}
+
+.circle {
+  margin: 36px;
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #1d2087;
+}
+
+.circle::before,
+.circle::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.circle,
+.circle::before,
+.circle::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.circle {
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  border: 2px solid #5c5eae;
+  color: #5c5eae;
+  line-height: 50px;
+  overflow: hidden;
+}
+
+.circle:hover {
+  color: #fff;
+}
+.circle::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+.circle:hover::after {
+  background: #5c5eae;
+  border-radius: 50%;
+  -webkit-transform: scale(.9);
+  transform: scale(.9);
+}
+
+.circle1 {
+  opacity: 0.4;
+}
+
+.circle2 {
+  opacity: 0.6;
+}
+
+.circle3 {
+  opacity: 0.8;
+}
+
+.circle a {
+  text-decoration: none;
+  color: #1d2087;
+}
+
+.circle h2 {
+  font-size: 60px;
+}
+
+.circle h2 small {
+  color: #1d2087;
+}
+
+.circle p {
+  font-size: 24px;
+  line-height: 26px;
+}
+.white-bg {
+  background: #fff;
+  
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Cuprum', sans-serif;
+  
+  
+}
+.translater * {
+  color: #555 !important;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  
+}
+
+.table-info, .table-info > th, .table-info > td {
+  background-color: #e8faff;
+}
+
+.table-success, .table-success > th, .table-success > td {
+  background-color: #f9fff6;
+}
+.table-danger, .table-danger > th, .table-danger > td {
+  background-color: #fdefef;
+}
+table.test-results {
+   font-size: 0.9em;
+}
+
+table.test-results th{
+   color: #555;
+}
+table.test-results td.test-name{
+   text-transform: capitalize;
+}
+td.type-test{
+  text-align: center;
+  font-size:1em;
+  font-weight:bold;
+background-color: #e8faff;  
+}
+td.breed-test{
+  text-align: center;
+  font-size:1em;
+  font-weight:bold;
+background-color: #fdefef;  
+}
+td.class-test{
+  text-align: center;
+  font-size:1em;
+  font-weight:bold;
+background-color: #e4e4e4;  
+}
+table.table-calendar {
+   font-size: 0.9em;
+}
+table.table-calendar thead.table-info > th {
+  background-color: #e8faff;
+}
+h3.catalog {
+  text-align:center;
+  font-size:1.5em;
+  font-weight:bold;
+  text-transform:uppercase;
+  margin: 20px;
+}
+h4.catalog {
+  text-align:center;
+  font-size:1.3em;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-decoration:underline;
+  margin: 10px;
+}
+h5.catalog {
+  text-align:left;
+  font-size:1.2em;
+//  text-transform:uppercase;
+  text-decoration:underline;
+  
+  font-style:italic;
+  margin: 10px 0;
+  
+}
+p.catalog {
+  font-size: 1em;
+}
+.catalog-class{
+  margin-bottom: 20px;
+}
+.diplom-class{
+  display:block;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+.diplom-print{
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display:block;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;  
+}
