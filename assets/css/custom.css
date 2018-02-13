@@ -1,1 +1,74 @@
 /* Add here all your css styles (customizations) */
+.wrapper {
+    background-image: url(../img/bg/bg-laps1.jpg);
+    min-height: 800px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-clip: border-box;
+}
+.container{
+    background: #fff;
+
+}
+
+.header-v4 .navbar-header {
+    margin: 10px 0;
+    width: 100%;
+}
+.header-v4 .navbar-collapse,
+.header-v4 .navbar-default .navbar-nav > li{
+  border:none;
+  }
+
+.header-v4 .navbar-nav{
+  background: #6a009c;
+
+}
+
+.header-v4 .navbar-default .navbar-nav > li > a,
+.header-v4 .dropdown-menu li a{
+    color: #ffffff;
+    font-weight: bold;
+   //font-family: 'Roboto Condensed', sans-serif;
+    //font-family: 'Caveat', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.1em;
+}
+.header-v4 .navbar-default .navbar-nav > li:hover > a{
+    border-color: #5600af;
+    color: #fdffb7;
+  
+}
+.header-v4 .dropdown-menu li a
+{
+    border-color: #5600af;
+    color: #470d82;
+  font-size: 1.3em;
+  
+}
+.main-h{
+  font-family: 'Philosopher', sans-serif;
+
+  text-align:center;
+}
+.main-h_1 {
+    font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: #e7e7e7 3px 5px 0,
+               #999 4px 6px 3px,
+               #ccc 8px 11px 10px;
+      color: #551980;
+
+}
+
+.main-h_2 {
+    font-size: 1.6em;
+    color: #b52680;
+  
+}
+.magazine-page {
+    margin-right: 20px;
+    margin-left: 20px;
+}

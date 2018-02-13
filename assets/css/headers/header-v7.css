@@ -16,7 +16,7 @@
 /*Navbar*/
 .header-v7 .navbar {
     margin-bottom: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background: #fff;
 }
 
 .header-v7 .navbar-default {
@@ -80,12 +80,12 @@
 /* Logo
 ------------------------------------*/
 .header-v7 .logo img {
-    width: 200px;
+    width: 100px;
 }
 
 @media (min-width: 768px) {
     .header-v7 .logo {
-        //padding: 10px 20px;
+        padding: 40px 20px;
     }
 
     .header-v7 .logo img {
@@ -119,14 +119,12 @@
 ------------------------------------*/
 .header-v7 .navbar-default .navbar-nav > li > a {
     color: #555;
+    font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Cuprum', sans-serif;
-    font-size: 1.2em;  
-    line-height: 1.5em;
 }
 
-.header-v7 .navbar-default .navbar-nav > li.dropdown > a:after {
+.header-v7 .navbar-default .navbar-nav > li > a:after {
     top: 8px;
     right: 10px;
     color: #444;
@@ -136,7 +134,6 @@
     font-weight: normal;
     display: inline-block;
     font-family: FontAwesome;
-  
 }
 
 .header-v7 .navbar-default .navbar-nav > li.open > a:after {
@@ -151,16 +148,8 @@
 /* Dropdown Menu
 ------------------------------------*/
 .header-v7 .dropdown-menu li a {
-    color: #555;
-    font-size: 1.1em;  
-    line-height: 1.5em;  
-    font-weight: 400;
-    padding: 4px 10px;
-}
-.header-v7 .dropdown-menu li a {
-    color: #555;
-    font-size: 1.1em;  
-    line-height: 1.5em;  
+    color: #666;
+    font-size: 14px;
     font-weight: 400;
     padding: 4px 10px;
 }
@@ -257,7 +246,6 @@
         padding-top: 30px;
         border-left: 1px solid rgba(218,218,218,0.2);
         border-right: 1px solid rgba(218,218,218,0.2);
-        box-shadow: 0 0 36px rgba(0,0,0,0.35);  
     }
 
     /*Header Left*/

@@ -1613,8 +1613,7 @@
 }
 
 .team-v4 img {
-  width: 40%;
-  margin: 0 auto;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -2446,7 +2445,7 @@
 	[16. Parallax Counter]
 ----------------------------------------------------*/
 .parallax-bg {
-  background: url(../assets/img/patterns/5.png) repeat fixed;
+  background: url(../img/patterns/5.png) repeat fixed;
 }
 
 /*Parallax Counter
@@ -2551,48 +2550,7 @@
     margin-bottom: 0 !important;
   }
 }
-/*Parallax Counter vspitz
-------------------------------------*/
-.parallax-counter-vspitz {
-  position: relative;
-  background: url(../img/bg/symphony.png) repeat fixed;
-}
 
-.parallax-counter-vspitz:before {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: " ";
-  position: absolute;
-}
-
-.parallax-counter-vspitz .counters {
-  border-bottom: solid 2px #ddd;
-  background: rgba(255,255,255,0.9);
-}
-
-.parallax-counter-vspitz .counters h4,
-.parallax-counter-vspitz .counters span {
-  color: #555;
-  font-weight: 200;
-  font-family: "Open Sans", Arial, sans-serif;
-}
-
-.parallax-counter-vspitz .counters span {
-  font-size: 36px;
-}
-
-.parallax-counter-vspitz .counters h4 {
-  font-size: 22px;
-  text-transform: uppercase;
-}
-
-@media (max-width: 992px) {
-  .parallax-counter-vspitz .counters {
-    margin-bottom: 0 !important;
-  }
-}
 /*Parallax Counter v3
 ------------------------------------*/
 .parallax-counter-v3 {
@@ -3480,10 +3438,10 @@
 
 /*Common Style*/
 .box-shadow {
-  /*background: #fff;*/
+  background: #fff;
   position: relative;
 }
- 
+
 .box-shadow:after,
 .box-shadow:before {
   top: 80%;
@@ -4950,9 +4908,7 @@
 .owl-carousel-v1 .owl-pagination {
   display: none;
 }
-.owl-carousel .owl-wrapper-outer {
-  margin-bottom: 20px;
-}
+
 /*Owl Carousel v2*/
 .owl-carousel-v2 .owl-slider-v2 {
   margin-bottom: 20px;
@@ -5029,7 +4985,6 @@
 }
 
 .owl-carousel-v6 .owl-wrapper-outer {
-	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -5096,34 +5051,11 @@
 
 /*Owl Clients v2
 ------------------------------------*/
-.owl-clients-spitz .item img {
-  height: 180px;
-  width:  auto;
-  display: block;
+.owl-clients-v1 img {
+  width: 120px;
+  height: auto;
 }
-.owl-clients-spitz .item  {
- 
-  width:  auto !important;
 
-}  
-.owl-clients-v6 {
-  margin: 0px auto;
-  overflow: hidden;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.owl-clients-v6  img {
-  width:  auto;
-  height: 140px;
-  display: inline-block;
-  
-}  
-.owl-clients-spitz  .item {
-  margin: 3px;
-  display: block;
-
-}
 .owl-clients-v1 .owl-pagination {
     display: none;
 }
@@ -7664,11 +7596,11 @@ ul.labels-demo li {
 /*Title-Box-V2*/
 .title-box-v2 {
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .title-box-v2 h2 {
-    font-size: 2em;
+    font-size: 25px;
     text-transform: uppercase;
 }
 

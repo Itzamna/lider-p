@@ -21,41 +21,7 @@ body.header-fixed-space-default {
 		padding-top: 0;
 	}
 }
-.phone-style{
-  font-size: 25px;
-  color: #555;
-  margin-top: 15px;
-  text-shadow: none;
-  font-weight: normal;
-  font-family: "Open Sans", Arial, sans-serif;
-}
- .header-contact span {
-    display: inline-block;
-    margin-top: 7px;
-    font-size: 25px;
-    font-weight: 700;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #898989;
-}
-.red {
-    color: #f75353 !important;
-}
-.logo  {
-    margin-left: 60px;
-    margin-top: -6px;
-    font-size: 13px;
-    color: #aaa;
-  
-}
-.btn-logo {
-  margin-top: 15px;
-}
 
-.header {
-	background: #fff;
-  background-image: url(../img/bg/subtle_dots.png);
-
-}
 /*--------------------------------------------------
     [1. Header - Topbar]
 ----------------------------------------------------*/
@@ -176,15 +142,13 @@ body.header-fixed-space-default {
 	z-index: 99;
 	background: #fff;
 	position: relative;
-	/*border-bottom: solid 2px #eee;*/
-  background-image: url(../../img/bg/subtle_dots.png);
-  
+	border-bottom: solid 2px #eee;
 }
 
 /*Header Container*/
 .header > .container {
 	display: table;
-	//margin-bottom: -40px;
+	margin-bottom: -40px;
 }
 
 @media (max-width: 768px) {
@@ -210,9 +174,8 @@ body.header-fixed-space-default {
 
 .header .logo img {
 	z-index: 1;
-	margin: 0 0 15px 20px;
+	margin: 20px 0;
 	position: relative;
-  width: 200px;
 }
 
 /*Big Logo Style*/
@@ -267,7 +230,7 @@ body.header-fixed-space-default {
 /*Navbar Menu*/
 .header .navbar-nav > li > a {
 	color: #687074;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight:400;
 	text-transform: uppercase;
 }
@@ -437,7 +400,7 @@ body.header-fixed-space-default {
 	.header .navbar-nav > li > a {
 		bottom: -2px;
 		position: relative;
-		padding: 9px 18px 9px 18px;
+		padding: 9px 30px 9px 20px;
 	}
 
 	.header .navbar-nav > li > a,
