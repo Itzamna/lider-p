@@ -9,8 +9,8 @@
 }
 .container{
     background: #fff;
-    border-left: 1px solid #69169c;
-    border-right: 1px solid #69169c;
+    border-left: 1px solid #7b7b7a;
+    border-right: 1px solid #7b7b7a;
 }
 
 .header-v4 .navbar-header {
@@ -73,4 +73,10 @@
 .magazine-page {
     margin-right: 20px;
     margin-left: 20px;
+}
+div.copyright > .container{
+    background: #222;
+    border-top: none;
+    padding: 10px 0 5px;
+    border: none;
 }
