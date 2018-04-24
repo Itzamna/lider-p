@@ -1,0 +1,49 @@
+---
+layout: default
+menu: champions-form  
+---
+<div class="container content" >
+  <div class="title-box-v2">
+    <h2>Каталог для проверки записи малых шпицев, средних шпицев и кеесхондов</h2>
+    <p>Для указанных пород запись закрыта. Перевод из класса в класс исключен.</p>
+  </div>
+</div>
+<div class="container content  entry-content" >
+  <div class="row">
+    <div class="col-md-12">     
+      {% assign breeds = site.data.catalog15 | group_by_exp:'breed', "breed['Порода']"| sort:"name" }} %}  
+        {% for breed in breeds %}
+        {% assign types = breed.items | group_by_exp:'types', "types['Пол']" %}
+          <h3 class="catalog">{{breed.name}}<h3>           
+          {% for sex in types %}
+              <h4 class="catalog">
+                {% if sex.name == 'Кобель' %}Кобели{% endif %} 
+                {% if sex.name == 'Сука' %}Суки{% endif %} 
+              </h4>      
+       
+          {% assign classes = sex.items | group_by_exp:'classes', "classes['Класс']" %}
+          {% assign classorders = 'Бэби, Щенков, Юниоров, Промежуточный, Открытый, Победителей, Чемпионов, Чемпионов НКП, Ветеранов' | split: ', ' %}
+            {% for tclass in classorders %}
+              {% for class in classes %}
+                {% if class.name == tclass %}
+                <h5 class="catalog">Класс: {{class.name}}</h5>
+                
+                {% assign results = class.items | sort:'Кличка' %}
+                <div class="catalog-class">
+                   {% for result in results %}
+                    <p class="catalog">
+                      <span class="text-uppercase">{{ result['Дата рождения']}}</span>
+                    </p>    
+                   {% endfor %}   <!-- result-->   
+                </div>
+            {% endif %} 
+              {% endfor %}  <!-- class-->       
+          {% endfor %}  <!-- classorders-->       
+         {% endfor %}  <!-- sex-->       
+      {% endfor %}  <!-- breed-->    
+
+      </div>
+  </div>
+</div>         
+      
+  

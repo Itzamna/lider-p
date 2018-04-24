@@ -30,7 +30,7 @@ menu: champions-form
               </h2>      
        
           {% assign classes = sex.items | group_by_exp:'classes', "classes['Класс']" %}
-          {% assign classorders = 'Беби, Бэби, Щенки, Юниоров, Промежуточный, Открытый, Победителей НКП, Чемпионов, Чемпионов НКП, Ветеранов' | split: ', ' %}
+          {% assign classorders = 'Беби, Бэби, Щенков, Юниоров, Промежуточный, Открытый, Победителей (для моно), Чемпионов, Чемпионов НКП (для моно), Ветеранов' | split: ', ' %}
             {% for tclass in classorders %}
               {% for class in classes %}
                 {% if class.name == tclass %}
