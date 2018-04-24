@@ -15,7 +15,7 @@ menu: champions-form
       <div style="display:none">{% increment counter %}</div>      
       
 {% assign groups = site.data.catalog2016 | where_exp:"group",
-"group['Участие в выставке'] contains 'КЧФ'"| group_by_exp:'group', "group['Группа']"| sort:"name" %} 
+"group['Участие в выставке'] contains 'САС, МОНО'"| group_by_exp:'group', "group['Группа']"| sort:"name" %} 
       
         {% for group in groups %}   
 

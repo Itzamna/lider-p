@@ -13,7 +13,8 @@ menu: champions-form
     <div class="col-md-12">     
       <p>Выставочное положение и т.п.</p>
       <div style="display:none">{% increment counter1 %}</div>
-      {% assign groups = site.data.catalog2016 | group_by_exp:'group', "group['Группа']"| sort:"name" %}  
+      {% assign groups = site.data.catalog2016 | where_exp:"group",
+"group['Участие в выставке'] contains 'МОНО'"| group_by_exp:'group', "group['Группа']"| sort:"name" %}  
 
         {% for group in groups %}   
          {% assign breeds = group.items | group_by_exp:'breeds', "breeds['Порода']"| sort:"name" %}
