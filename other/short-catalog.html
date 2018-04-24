@@ -11,7 +11,7 @@ menu: champions-form
 <div class="container content  entry-content" >
   <div class="row">
     <div class="col-md-12">     
-      {% assign breeds = site.data.catalog15 | group_by_exp:'breed', "breed['Порода']"| sort:"name" }} %}  
+      {% assign breeds = site.data.catalog2016 | group_by_exp:'breed', "breed['Порода']"| sort:"name" }} %}  
         {% for breed in breeds %}
         {% assign types = breed.items | group_by_exp:'types', "types['Пол']" %}
           <h3 class="catalog">{{breed.name}}<h3>           
