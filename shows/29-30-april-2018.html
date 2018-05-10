@@ -71,7 +71,6 @@ superbox:
   - show/29april2018/f-427.jpg
   - show/29april2018/f-428.jpg
   - show/29april2018/f-429.jpg
-superbox1:
   - show/30april2018/f-104.jpg
   - show/30april2018/f-105.jpg
   - show/30april2018/f-106.jpg
@@ -162,33 +161,4 @@ superbox1:
 
 <h2>29-30 апреля 2018 ГОДА</h2>
 
-<h3>Фотографии с выставки 29 апреля 2018 года</h3>
-<div class="superbox">
-  {% for i in page.superbox %}
-	<div class="superbox-list">
-		<img src="../public/images/{{i}}" data-img="../public/images/{{i}}" alt="" class="superbox-img" height="100">
-	</div>
-	 {% endfor %}
-	<div class="superbox-float"></div>
-</div>
-<h3>Фотографии с выставки 30 апреля 2018 года</h3>
-<div class="superbox">
-  {% for i in page.superbox1 %}
-	<div class="superbox-list">
-		<img src="../public/images/{{i}}" data-img="../public/images/{{i}}" alt="" class="superbox-img" height="100">
-	</div>
-	 {% endfor %}
-	<div class="superbox-float"></div>
-</div>
-
-
-<div class="clear"></div>
-<script src="../public/js/superbox.js"></script>
-<script>
-$(function() {
-
-	// Call SuperBox
-	$('.superbox').SuperBox();
-
-});
-</script>
+{% include superbox.html %}
