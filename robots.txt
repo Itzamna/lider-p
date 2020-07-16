@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /other/
+Disallow: /friends.html
+Disallow: /from-the-heart.html
